@@ -1,0 +1,119 @@
+/* Header Formatting */
+head {
+    font-family: "Montserrat", sans-serif;
+}  
+
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+/* Logo Formatting */
+.logo {
+    max-height: 150px; 
+    max-width: 150px;
+}
+/* Nav Bar Styling */
+nav{
+    list-style-type: none;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+nav a:link, a:visited{
+    color:ivory;
+    text-decoration: none;
+}
+nav a:hover {
+    color: grey;
+}
+.nzlink{
+    color: black;
+}
+li {
+    float: left;
+    width: 100%;
+    display: flexbox;
+    flex-basis: 12%;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+ 
+a {
+    display: block;
+    padding: 8px;
+    background-color: green;
+}
+/* Header Styling */
+h1{
+    margin: 10;
+    text-align: center;
+}
+.nzimage {
+    display: flex;
+    height: 300px;
+}
+.countryimage{
+    width: 1350px;
+    height: 275px;
+    margin:auto;
+    border-radius: 25px;
+}
+/* Lists Styling */
+.lists{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+.cities{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green; 
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listimage{
+    width: 100px;
+    height: 75px;
+}
+.listofcities{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+.landmarks{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listoflandmarks{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+.citizens{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listofcitizens{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+/* Footer Styling */
+footer {
+    background-color: green;
+    color: ivory;
+    border-radius: 15px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
