@@ -36,8 +36,9 @@ nav a:hover {
     
 }
 
-.spain-link {
+.spain-link:link, .spain-link:visited, .spain-link:hover {
     color: yellow;
+    font-weight: bold;
 }
 
 .title {
@@ -61,6 +62,13 @@ nav a:hover {
     border-radius: 15px;
     margin: 1em;
     padding: 0.5em;
+    text-align: center;
+}
+
+.cell-image {
+    max-width: 140px;
+    height: auto;
+    border-radius: 15px;
 }
 
 footer {
