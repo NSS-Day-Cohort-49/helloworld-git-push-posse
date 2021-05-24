@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+}
+.logo {
+    width: 250px;
+    height: 200px;
+}
+
+.box {
+    justify-content: center;
+    text-align: left;
+    border: black 5px;
+    border-style: double;
+    float: left;
+    padding: 1.5em 1em;
+    width: 15%;
+    height: 170px;
+    }
+
+.box ul {
+    margin-top: 4em;
+    height: 6em;
+    text-align: justify;
+}
+
+.copy {
+   position: relative;
+   margin-top: 300px;
+}
+
+footer {
+    padding: 2em 0;
+    width: 100%;
+    text-align: center;
+}
