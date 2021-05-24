@@ -1,0 +1,113 @@
+head {
+    font-family: "Montserrat", sans-serif;
+}  
+
+
+body {
+
+    font-family: "Montserrat", sans-serif;
+  }
+/* header{
+} */
+.logo {
+    height: 150px; width: 180px;
+}
+
+ul{
+    border: 1px solid green;
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    color: ivory;
+  
+}
+a:link{
+    color:ivory;
+}
+.nzlink{
+    color: black;
+}
+li {
+    float: left;
+    width: 100%;
+    display: flexbox;
+}
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: green;
+}
+
+h1{
+    margin: 10;
+
+}
+.nzimage {
+    display: flex;
+    height: 300px;
+
+}
+.countryimage{
+    width: 1300px;
+    height: 275px;
+    margin:auto;
+    border-radius: 25px;
+}
+.lists{
+    display: flex;
+    margin: 5px;
+}
+.cities{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green; 
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listimage{
+    width: 100px;
+    height: 75px;
+}
+
+.listofcities{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+.landmarks{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listoflandmarks{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+.citizens{
+    flex-grow: 1;
+    display: flexbox;
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;
+}
+.listofcitizens{
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px;
+}
+footer {
+    font-size: small;
+    border: 1px solid green;
+    background-color: green;
+    color: ivory;
+}
