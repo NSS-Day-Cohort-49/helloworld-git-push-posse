@@ -1,20 +1,69 @@
 #wrapper {
     width: 970px;
-    height: 1200px;
+    height: 1800px;
 }
 
 #top {
-
+    width:970px;
+    height:100px;
 }
 
 #header {
-
+    width: 970px;
+    height: 100px;
 }
 
 #main {
+    width: 970px;
+    height: auto;
+}
+
+.country_name {
+    width:970px;
+    height: 100px;
+    text-align: left;
+}
+
+h1 {
+    height: 50px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.citylist {
+    flex: 1;
+}
+
+img {
+    align-items: center;
+}
+
+.listofcities {
+    
+}
+
+.landmarklist {
+    flex: 1;
+}
+
+.listoflandmarks {
+
+}
+
+.famouscitizenlist {
+    flex: 1;
+}
+
+.listoffamouscitizens {
 
 }
 
 #footer {
-    
+    text-align: center;
+    padding-top:50px;
+    width: 970px;
+    height: auto;
+}
+
+footer {
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
